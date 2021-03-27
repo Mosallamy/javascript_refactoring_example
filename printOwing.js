@@ -1,6 +1,7 @@
 function printOwing(self):
     self.printBanner()
+    self.printDetails(self.getOutstanding())
 
-    # print details
+function printDetails(self, outstanding):
     alert("name:", self.name)
-    alert("amount:", self.getOutstanding())
+    alert("amount:", outstanding)
