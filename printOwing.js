@@ -3,7 +3,7 @@ function printOwing(self){
     self.printDetails(self.getOutstanding())
 }
 
-function printDetails(self, outstanding){
+function printPrint(self, outstanding){
     alert("name:", self.name)
     alert("amount:", outstanding)
 }
